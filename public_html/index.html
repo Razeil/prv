@@ -1,0 +1,138 @@
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="Bootstrap/css/bootstrap.css" rel="stylesheet">
+        <link href="css/main.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/animate.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js">
+        </script>
+
+
+    </head>
+    <body>
+        <div class='container'>
+
+            <a href="/" class='navbar-brand'>
+            <img src='img/logo.png'>
+            </a>
+            <ul class='nav nav-tabs'>
+                <li> O mnie </li> 
+                <li> Umiejetnosci </li>
+                <li> Realizacje </li>
+                <li> Kontakt </li>
+            </ul>
+            <div class='col-md-12'>
+                <h1> O mnie </h1>
+                <p> 
+                    Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w przemyśle poligraficznym. 
+                    Został po raz pierwszy użyty w XV w. przez nieznanego drukarza do wypełnienia 
+                    tekstem próbnej książki. Pięć wieków później zaczął być używany przemyśle elektronicznym, 
+                    praktycznie niezmienionym. Spopularyzował się w latach 60. XX w. wraz z publikacją 
+                    arkuszy Letrasetu, zawierających fragmenty Lorem Ipsum, a ostatnio z zawierającym 
+                    różne wersje Lorem Ipsum oprogramowaniem przeznaczonym do realizacji druków na 
+                    komputerach osobistych, jak Aldus PageMaker 
+                </p> 
+                <div class='row'>
+                <div class="col-md-2 col-md-offset-5">
+                    <img class='mojefoto animated bounceIn' src='img/cv.png'>
+            </div>
+                    </div>
+                </div>
+        </div> 
+        <div class='container'>
+            <div class='col-md-12'>
+                <h1> Umiejętności</h1>
+            </div>
+             <div class='col-md-4'>
+                    <p> <img id='test1' src='img/jquery.png'> </p>
+                </div>
+                <div class='col-md-4'>
+                      <p> <img class="test2" src='img/html-5.png'> </p>   
+                </div>
+                 <div class='col-md-4'>
+                      <p> <img class="test3" src='img/css3.png'> </p>   
+                </div>
+        </div>  
+        <div class='container'>
+
+                <div class='col-md-4'>
+                    <p class="jeden" style="display:none"> Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w przemyśle poligraficznym. 
+                    Został po raz pierwszy użyty w XV w. przez nieznanego drukarza do wypełnienia 
+                    tekstem próbnej książki. Pięć wieków później zaczął być używany przemyśle elektronicznym, 
+                    praktycznie niezmienionym. Spopularyzował się w latach 60. XX w. wraz z publikacją 
+                    arkuszy Letrasetu, zawierających fragmenty Lorem Ipsum, a ostatnio z zawierającym 
+                    różne wersje Lorem Ipsum oprogramowaniem przeznaczonym do realizacji druków na 
+                    komputerach osobistych, jak Aldus PageMaker 
+                    </p>    
+                    </div>
+
+                <div class='col-md-4'>
+                    <p class="dwa" style="display:none">
+                       Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w przemyśle poligraficznym. 
+                    Został po raz pierwszy użyty w XV w. przez nieznanego drukarza do wypełnienia 
+                    tekstem próbnej książki. Pięć wieków później zaczął być używany przemyśle elektronicznym, 
+                    praktycznie niezmienionym. Spopularyzował się w latach 60. XX w. wraz z publikacją 
+                    arkuszy Letrasetu, zawierających fragmenty Lorem Ipsum, a ostatnio z zawierającym 
+                    różne wersje Lorem Ipsum oprogramowaniem przeznaczonym do realizacji druków na 
+                    komputerach osobistych, jak Aldus PageMaker 
+                    </p>   
+                </div>
+                <div class='col-md-4'>
+                    <p class="trzy" style="display:none"> Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w przemyśle poligraficznym. 
+                    Został po raz pierwszy użyty w XV w. przez nieznanego drukarza do wypełnienia 
+                    tekstem próbnej książki. Pięć wieków później zaczął być używany przemyśle elektronicznym, 
+                    praktycznie niezmienionym. Spopularyzował się w latach 60. XX w. wraz z publikacją 
+                    arkuszy Letrasetu, zawierających fragmenty Lorem Ipsum, a ostatnio z zawierającym 
+                    różne wersje Lorem Ipsum oprogramowaniem przeznaczonym do realizacji druków na 
+                    komputerach osobistych, jak Aldus PageMaker </p>
+                </div>
+            </div>
+            <div class='container'>
+                <div class='col-md-12'> <h1> Realizacje </h1></div>
+                    <div class='col-md-4'>
+                        <p> Projekt 1 </p>
+                    </div>
+
+                    <div class='col-md-4'>
+                        <p> Projekt 2 </p>
+                    </div>
+                    <div class='col-md-4'>
+                        <p> Projekt 3 </p>
+                    </div>
+                </div>
+        <script> 
+             
+    
+$(document).ready(function(){
+$('#test1').on("mouseenter", function(){
+$('.jeden').fadeIn();     
+});
+$('#test1').on("mouseleave", function (){
+$('.jeden').fadeOut('slow');    
+});
+
+$('.test2').on("mouseenter", function(){
+$('.dwa').fadeIn();     
+});
+$('.test2').on("mouseleave", function (){
+$('.dwa').fadeOut('slow');    
+});
+
+$('.test3').on("mouseenter", function(){
+$('.trzy').fadeIn();     
+});
+$('.test3').on("mouseleave", function (){
+$('.trzy').fadeOut('slow');    
+});
+
+ });
+                </script>
+            <script src="Bootstrap/js/bootstrap.js"></script>
+            <script src="Jquery/jquery-1.12.1.min.js">
+            </script>
+            <script src="main.js"></script>
+        
+    </body>
+</html>

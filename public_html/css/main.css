@@ -1,0 +1,17 @@
+
+.test:hover{
+    opacity: 0.5;
+}
+.mojefoto { 
+   width: 140px;
+   height: 140px;
+    background: url("file:///C:/Users/Pawel/Desktop/CV/cv.png") repeat;
+   -moz-border-radius: 70px; 
+   -webkit-border-radius: 70px; 
+   border-radius: 70px;
+}
+
+.col-centered {
+    float: none;
+    margin: 0 auto;
+}
